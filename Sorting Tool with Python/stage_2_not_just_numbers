@@ -1,5 +1,9 @@
 import argparse
 
+# def your_func(data, dataType):
+#     pass
+#
+# res =  your_func(data, **vars(parser.parse_args()))
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-dataType", choices=["long", "line", "word"])
